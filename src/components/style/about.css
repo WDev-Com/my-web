@@ -1,0 +1,239 @@
+.container-dd {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 30vh;
+    border: solid 5px rgba(255, 216, 1, 0.9);
+    margin-bottom: 50px;
+}
+
+.tittled {
+    flex-direction: row;
+}
+
+
+.tittled h1 {
+    margin-left: 35%;
+}
+
+.masala {
+    display: flex;
+    flex-direction: row;
+}
+
+.masala #contain {
+    width: auto;
+    height: auto;
+    font-style: italic;
+    font-size: 2.5vmin;
+    font-weight: bold;
+
+}
+
+.masala-imp {
+    margin-left: 40px;
+}
+
+#containskil {
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container-dd {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        width: 90vw;
+        height: 25vh;
+        border: solid 5px rgba(255, 216, 1, 0.9);
+        margin-bottom: 25px;
+    }
+
+    .tittled {
+        flex-direction: row;
+
+    }
+
+
+    .tittled h1 {
+        margin-left: 35%;
+        font-size: 2.5vw;
+    }
+
+    .masala {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .masala #contain {
+        width: auto;
+        height: auto;
+        font-style: italic;
+        font-size: 90%;
+        font-weight: bold;
+
+    }
+
+    .masala-imp {
+        margin-left: 50px;
+    }
+
+    .icons li {
+        display: inline;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 740px) {
+    /* .container-dd {
+        /* border: solid 5px black;
+
+    } */
+
+    .tittled h1 {
+        margin-left: 35%;
+        font-size: 120%;
+    }
+
+    .masala #contain {
+        font-size: 83%;
+    }
+
+    .masala-imp {
+        margin-left: 45px;
+    }
+
+    .icons li {
+        margin-left: 16px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .container-dd {
+        /* border: solid 5px green;*/
+        margin-left: 4vw;
+    }
+
+    .tittled h1 {
+        margin-left: 35%;
+        font-size: 120%;
+    }
+
+    .masala #contain {
+        font-size: 78%;
+    }
+
+    .masala-imp {
+        margin-left: 40px;
+    }
+
+    .icons li {
+        margin-left: 12px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .container-dd {
+        /* border: solid 5px blue;*/
+        margin-left: 4vw;
+    }
+
+    .tittled h1 {
+        margin-left: 35%;
+        font-size: 115%;
+    }
+
+    .masala #contain {
+        font-size: 73%;
+    }
+
+    .masala-imp {
+        margin-left: 35px;
+    }
+
+    .icons li {
+        margin-left: 8px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .container-dd {
+        /* border: solid 5px red; */
+        margin-left: 12vw;
+        margin-right: 0vw;
+    }
+
+
+    .tittled h1 {
+        margin-left: 35%;
+        font-size: 110%;
+    }
+
+    .masala #contain {
+        font-size: 70%;
+    }
+
+    .masala-imp {
+        margin-left: 30px;
+    }
+
+    .icons li {
+        margin-left: 4px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .masala #contain {
+        font-size: 70%;
+    }
+
+    .container-dd {
+        margin-left: 3.3vw;
+        /*  border: solid 5px red;*/
+    }
+
+    .tittled h1 {
+        margin-left: 35%;
+        font-size: 95%;
+    }
+
+    .masala-imp {
+        margin-left: 5px;
+    }
+
+    .icons li {
+        margin-left: 4px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .masala #contain {
+        font-size: 63%;
+    }
+
+    .container-dd {
+        margin-left: 10vw;
+        /* border: solid 5px darkgrey; */
+    }
+
+    .tittled h1 {
+        margin-left: 35%;
+        font-size: 95%;
+    }
+
+    .masala-imp {
+        margin-left: 5px;
+    }
+
+    .icons li {
+        margin-left: 4px;
+    }
+}

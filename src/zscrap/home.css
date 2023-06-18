@@ -1,0 +1,218 @@
+.flexcss {
+    display: flex;
+    flex-direction: row;
+}
+
+/** Size of two container */
+.soc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    order: 0;
+    height: 600px;
+    width: 600px;
+}
+
+.pho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 700px;
+}
+
+.profile-container {
+    margin-top: 90px;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px dashed black;
+    overflow: hidden;
+}
+
+.profile-container img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
+/*  style the discrption contaioner*/
+.stater {
+    margin-left: 150px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.stater2 {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+.social-icons {
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: 25px;
+}
+
+.social-icons #item {
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    color: black;
+}
+
+/* For Responsive */
+/*/****************800**************************/
+@media only screen and (max-width: 900px) {
+
+    /* Window resized */
+    .flexcss {
+        flex-direction: row;
+    }
+
+    /** Size of two container */
+    .soc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        order: 0;
+        height: 600px;
+        width: 600px;
+    }
+
+    .pho {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 600px;
+        width: 600px;
+    }
+
+    .profile-container {
+        margin-top: 90px;
+        margin-left: 10px;
+        border-radius: 50%;
+        border: 5px dashed green;
+        overflow: hidden;
+        /*margin-top: 100px;
+        margin-right: 100px;*/
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-container img {
+        width: 30vh;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    /*  style the discrption contaioner*/
+    .stater {
+        margin-left: 150px;
+
+        margin-top: 100px;
+        /*margin-left: 100px;*/
+        font-size: 30px;
+    }
+
+    .stater2 {
+        margin-left: 100px;
+        margin-top: 10px;
+
+        font-size: 19px;
+        /*
+        margin-left: 75px;
+        margin-top: 0px;*/
+
+    }
+
+    .social-icons {
+        /*margin-left: 0px;*/
+        margin-right: 0;
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+
+    .social-icons #item {
+        width: 50px;
+        height: 50px;
+        /* margin-left: 35px;*/
+        color: black;
+        margin-left: 25px;
+    }
+}
+
+/*/****************600************************(max-width: 670px)**/
+@media only screen and (max-width: 670px) {
+
+    /* Window resized */
+    .flexcss {
+        flex-direction: column-reverse;
+    }
+
+    /** Size of two container */
+    .soc {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+        order: 0;
+        height: 600px;
+        width: 600px;
+    }
+
+    .pho {
+        align-items: center;
+        flex-direction: row;
+        height: 600px;
+        width: 700px;
+    }
+
+    .profile-container {
+        margin-top: 0px;
+        margin-left: 150px;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px dashed yellow;
+        overflow: hidden;
+    }
+
+    .profile-container img {
+        width: 50vh;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    /*  style the discrption contaioner*/
+    .stater {
+        margin-left: 120px;
+        font-size: 35px;
+        margin-top: 0px;
+    }
+
+    .stater2 {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 25px;
+
+    }
+
+    .social-icons {
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 120px;
+        margin-top: 0px;
+    }
+
+    .social-icons #item {
+        width: 50px;
+        height: 50px;
+        margin-left: 35px;
+        color: black;
+    }
+}

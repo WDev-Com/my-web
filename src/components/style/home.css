@@ -1,0 +1,226 @@
+.soc {
+    margin-left: 50px;
+    height: 600px;
+    width: 600px;
+}
+
+.pho {
+    height: 600px;
+    width: 700px;
+    margin-left: 0px;
+    margin-top: 10vh;
+    margin-right: 25dvw;
+}
+
+.flexcss {
+    margin-bottom: 10vmin;
+}
+
+.profile-container {
+    margin-top: 10px;
+    margin-left: 100rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* border: 5px dashed yellow; */
+    border: 5px solid yellow;
+    overflow: hidden;
+}
+
+.profile-container img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
+/*  style the discrption contaioner*/
+.stater {
+    margin-left: 10rem;
+    margin-right: -5rem;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.stater2 {
+    margin-left: 5rem;
+    margin-right: -15rem;
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+.social-icons {
+    margin-left: 13rem;
+    margin-right: 0;
+    margin-top: 25px;
+}
+
+.social-icons #item {
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    color: black;
+}
+
+
+
+/* responsve */
+@media only screen and (max-height : 600px) {
+    .profile-container {
+        /* border: 5px dashed black; */
+        border: 5px solid yellow;
+    }
+
+    .profile-container img {
+        width: 60vh;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+}
+
+/* responsve */
+@media only screen and (max-height : 480px) {
+    .profile-container {
+        /* border: 5px dashed brown; */
+        border: 5px solid yellow;
+    }
+
+    .profile-container img {
+        width: 70vh;
+        height: 70vh;
+        object-fit: cover;
+    }
+
+}
+
+/* responsve */
+@media only screen and (max-height : 410px) {
+    .profile-container {
+        /* border: 5px dashed blue; */
+        border: 5px solid yellow;
+    }
+
+    .profile-container img {
+        width: 80vh;
+        height: 80vh;
+        object-fit: cover;
+    }
+
+}
+
+/* responsve */
+@media only screen and (max-height : 380px) {
+    .profile-container {
+        /* border: 5px dashed lightseagreen; */
+        border: 5px solid yellow;
+    }
+
+    .profile-container img {
+        width: 90vh;
+        height: 90vh;
+        object-fit: cover;
+    }
+}
+
+/* responsve */
+@media only screen and (max-height : 320px) {
+    .profile-container {
+        /* border: 5px dashed lightsalmon; */
+        border: 5px solid yellow;
+    }
+
+    .profile-container img {
+        width: 110vh;
+        height: 110vh;
+        object-fit: cover;
+    }
+}
+
+/* responsve */
+@media only screen and (max-height : 260px) {
+    .profile-container {
+        /* border: 5px dashed darkmagenta; */
+        border: 5px solid yellow;
+    }
+
+    .profile-container img {
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
+    }
+}
+
+
+
+
+
+/* responsve */
+@media only screen and (max-width: 670px) {
+
+    /* Window resized */
+    .flexcss {
+        flex-direction: column-reverse;
+    }
+
+    /** Size of two container */
+    .soc {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 50px;
+        height: 250px;
+        width: 250px;
+        margin-bottom: 15vw;
+    }
+
+    .pho {
+        align-items: end;
+        flex-direction: row;
+        height: 250px;
+        width: 250px;
+    }
+
+    .profile-container {
+        margin-top: 0px;
+        margin-left: 0vw;
+        margin-right: -18vw;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        border: 5px solid yellow;
+        overflow: hidden;
+    }
+
+    .profile-container img {
+        width: 100dvw;
+        height: 40dvh;
+        object-fit: cover;
+    }
+
+    /*  style the discrption contaioner*/
+    .stater {
+        margin-left: 35px;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .stater2 {
+        margin-left: 2px;
+        margin-right: -90px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .social-icons {
+        margin-left: 0px;
+        margin-right: 120px;
+        margin-top: 15px;
+    }
+
+    .social-icons #item {
+        width: 50px;
+        height: 50px;
+        margin-left: 35px;
+        color: black;
+    }
+}

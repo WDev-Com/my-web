@@ -1,0 +1,294 @@
+.main-masala {
+    margin-bottom: 5vh;
+}
+
+.carddirection {
+    display: flex;
+    flex-direction: row;
+}
+
+.transparent {
+    /*  background-color: rgba(255, 216, 1, 0.2);*/
+    background-color: rgba(0, 0, 0, 0.77);
+    /* color: aqua; */
+}
+
+.inside-mas-card {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 5vh;
+    max-width: 190vmin;
+    height: 60vh;
+    color: white;
+}
+
+.container-1 {
+    /*  background-color: aquamarine;*/
+    width: 70vh;
+    height: 60vh;
+
+}
+
+
+.container-1 .imgg {
+    height: 60vh;
+}
+
+.container-2 {
+    flex-direction: column;
+    width: 70%;
+}
+
+.card-title {
+    font-size: 2svw;
+}
+
+.card-text {
+    font-size: 2.7vmin;
+}
+
+.text {
+    font-size: 2svw;
+}
+
+@media only screen and (max-width : 1300px) and (min-height : 500px) {
+    .transparent {
+        color: pink;
+    }
+
+    .card-title {
+        font-size: 2.2vmax;
+        margin-bottom: 0.5vmin;
+    }
+
+    .card-text {
+        font-size: 2.2vmin;
+        margin-bottom: 0.5vmin;
+    }
+
+    .text {
+        font-size: 2.2vmax;
+    }
+}
+
+@media only screen and (max-width : 950px) and (max-height : 950px) {
+    .transparent {
+        color: coral;
+    }
+
+    .card-title {
+        font-size: 2.2vmin;
+        margin-bottom: 0vmin;
+    }
+
+    .card-text {
+        font-size: 2vmin;
+        margin-bottom: 0vmin;
+    }
+
+    .text {
+        font-size: 2.2vmin;
+        margin-bottom: 0vmin;
+    }
+}
+
+@media only screen and (max-width : 850px) and (min-height : 200px) {
+    .transparent {
+        color: white;
+    }
+
+    .card-title {
+        font-size: 2.2vmin;
+        margin-bottom: 0vmin;
+    }
+
+    .card-text {
+        font-size: 2vmin;
+        margin-bottom: 0vmin;
+    }
+
+    .text {
+        font-size: 2.2vmin;
+        margin-bottom: 0vmin;
+    }
+}
+
+/****************************************For Mobile***************************************************************************/
+@media only screen and (max-width : 720px) and (min-height : 200px) {
+    .main-masala {
+        margin-bottom: 1%;
+        margin-left: 7vw;
+        margin-right: 1vw;
+        /* background-color: azure; */
+    }
+
+
+    .inside-mas-card {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        /* color: red; */
+        /* margin-right: 5%; */
+        /* background-color: powderblue; */
+        margin-top: 5%;
+        width: 90vmin;
+        height: 92vmin;
+    }
+
+    .carddirection {
+        flex-direction: column;
+    }
+
+    .container-1 {
+        /* background-color: aquamarine;*/
+        width: 90vmin;
+        /* background-color: aqua; */
+        height: 45vmin;
+        flex-direction: row;
+    }
+
+
+    .container-1 .imgg {
+        padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+        width: 90vmin;
+        height: 45vmin;
+    }
+
+    .container-2 {
+        width: 90vmin;
+        /* background-color: pink; */
+        flex-direction: row;
+    }
+
+    /*
+    .transparent {
+        /* color: red; 
+    }*/
+
+    .card-title {
+        font-size: 3.5vmin;
+        font-weight: bolder;
+        margin-left: 25vmin;
+        margin-bottom: 0.5vw;
+    }
+
+    .card-text {
+        font-size: 2.54vmin;
+        margin-right: 0vw;
+        font-weight: bold;
+        margin-bottom: 1.2vmin;
+    }
+
+    .text {
+        margin-top: -1vw;
+        margin-right: 0vh;
+        font-weight: bolder;
+        font-size: 3.5vw;
+    }
+
+    .nav-link {
+        margin-left: 55vw;
+        margin-top: -3.5vh;
+    }
+}
+
+@media only screen and (max-height : 500px) {
+    .card-title {
+        font-size: 4vmin;
+        margin-bottom: 0vmin;
+    }
+
+    .card-text {
+        font-size: 3vmin;
+        margin-bottom: 0vmin;
+    }
+
+    .text {
+        font-size: 4vmin;
+        margin-bottom: 0vmin;
+    }
+}
+
+
+/*
+Extra Not working
+@media only screen and (max-height : 450px) and (max-width : 500px) {
+    .transparent {
+        color: blue;
+    }
+
+    .card-title {
+        font-size: 3vw;
+    }
+
+    .card-text {
+        font-size: 1.5vw;
+    }
+
+    .text {
+        font-size: 2.3vw;
+    }
+
+    .nav-link {
+        margin-top: -3vh;
+    }
+}
+
+
+**/
+/*
+
+@media only screen and (max-width : 450px) and (max-height : 650px) {
+    .main-masala {
+        margin-bottom: 60%;
+        /*background-color: azure;
+    }
+
+    .transparent {
+        color: red;
+    }
+
+    .card-title {
+        font-size: 3.4vw;
+        margin-bottom: 0.5vw;
+    }
+
+    .card-text {
+        font-size: 2vw;
+        margin-right: -8vw;
+    }
+
+    .text {
+        margin-top: -3vw;
+        margin-right: -3vh;
+        font-size: 2.6vw;
+    }
+
+    .nav-link {
+        margin-top: -2vh;
+    }
+
+    .inside-mas-card {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        width: 95%;
+        height: 14rem;
+    }
+
+    .container-1 {
+        /* background-color: aquamarine;
+        width: 55%;
+        height: 14rem;
+    }
+
+
+    .container-1 .imgg {
+        padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+        height: 14rem;
+    }
+
+    .container-2 {
+        width: 40%;
+    }
+}*/

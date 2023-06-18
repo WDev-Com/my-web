@@ -1,0 +1,249 @@
+/** Size of two container */
+.soc {
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    margin-left: 50px;
+    order: 0;
+    height: 600px;
+    width: 600px;
+}
+
+.pho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 700px;
+}
+
+.profile-container {
+    margin-top: 10px;
+    margin-left: 10px;
+    /*  width: 300px;
+    height: 300px;*/
+    border-radius: 50%;
+    border: 5px dashed black;
+    overflow: hidden;
+}
+
+.profile-container img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
+/*  style the discrption contaioner*/
+.stater {
+    margin-left: 150px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.stater2 {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+.social-icons {
+    margin-left: 0px;
+    margin-right: 0;
+    margin-top: 25px;
+}
+
+.social-icons #item {
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    color: black;
+}
+
+/*
+/* For Responsive 
+/*****************800*********************
+@media only screen and (max-width: 800px) {
+
+    /* Window resized *
+    .profile-container {
+        margin-top: 100px;
+        margin-right: 100px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px dashed yellow;
+        overflow: hidden;
+    }
+
+    .profile-container img {
+        width: 30vh;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+
+    .stater {
+        margin-left: 100px;
+        font-size: 30px;
+
+    }
+
+    .stater2 {
+        margin-left: 75px;
+        font-size: 19px;
+        margin-top: 0px;
+
+    }
+
+    .social-icons {
+        margin-left: 100px;
+        margin-top: 25px;
+    }
+
+    .social-icons .item {
+        width: 50px;
+        height: 50px;
+        margin-left: 25px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    /* Window resized 
+    .flexcss {
+        flex-direction: column;
+    }
+
+    .soc {
+        flex-direction: row;
+        order: 2;
+        height: 300px;
+        width: 300px;
+    }
+
+    .pho {
+        flex-direction: row;
+        order: 1;
+        height: 300px;
+        width: 350px;
+    }
+
+    /* Window resized 
+    .profile-container {
+        margin-top: 50px;
+        margin-right: 65px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px dashed yellow;
+        overflow: hidden;
+    }
+
+    .profile-container img {
+        width: 30vh;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+
+    .stater {
+        margin-top: 0;
+        margin-left: 93px;
+        margin-right: 0;
+        font-size: 25px;
+
+    }
+
+    .stater2 {
+        margin-left: 45px;
+        margin-right: 0;
+        font-size: 17px;
+        margin-top: 0px;
+
+    }
+
+    .social-icons {
+        margin-left: 70px;
+        margin-top: 25px;
+    }
+
+    .social-icons .item {
+        width: 50px;
+        height: 50px;
+        margin-left: 25px;
+    }
+}
+
+/* for mobile
+
+@media only screen and (max-width: 799px) {
+
+    /* Window resized 
+    .flexcss {
+        flex-direction: column;
+    }
+
+    .soc {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        order: 2;
+        height: 300px;
+        width: 300px;
+    }
+
+    .pho {
+        flex-direction: row;
+        order: 1;
+        height: 300px;
+        width: 350px;
+    }
+
+    /* Window resized 
+    .profile-container {
+        margin-top: 50px;
+        margin-right: 65px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px dashed yellow;
+        overflow: hidden;
+    }
+
+    .profile-container img {
+        width: 30vh;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+
+    .stater {
+        margin-top: 0;
+        margin-left: 93px;
+        margin-right: 0;
+        font-size: 25px;
+
+    }
+
+    .stater2 {
+        margin-left: 45px;
+        margin-right: 0;
+        font-size: 17px;
+        margin-top: 0px;
+
+    }
+
+    .social-icons {
+        margin-left: 70px;
+        margin-top: 25px;
+    }
+
+    .social-icons .item {
+        width: 50px;
+        height: 50px;
+        margin-left: 25px;
+    }
+}*/

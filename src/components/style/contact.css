@@ -1,0 +1,583 @@
+.maincontainer {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 5vh;
+    margin-bottom: 5rem;
+    margin-left: 9vw;
+    /*background-color: aqua;*/
+}
+
+.mark1 {
+    /* background-color: green;*/
+    width: 40vw;
+    height: 80vh;
+    margin: 5vh 3vw 5vh 3vw;
+}
+
+/*For Form Validation Error*/
+input.inputerror,
+textarea.inputerror {
+    border-width: 3px;
+    border-color: red;
+}
+
+
+.mark2 {
+    /* background-color: blueviolet;*/
+    width: 40vw;
+    height: 80vh;
+    margin: 5vh 3vw 5vh 3vw;
+}
+
+/*  descrption  */
+.titlr {
+    margin-left: 10vw;
+}
+
+.descrp {
+    margin-left: 2vw;
+    font-size: 2.5vmin;
+    font-weight: bolder;
+    margin-bottom: 10vh;
+
+}
+
+.address {
+    margin-left: 8vw;
+    font-size: 2.5vmin;
+    font-weight: bolder;
+}
+
+#phone {
+    margin-left: 8vw;
+    font-size: 2.5vmin;
+    font-weight: bolder;
+}
+
+#email2 {
+    margin-left: 8vw;
+    font-size: 2.5vmin;
+    font-weight: bolder;
+}
+
+/*name: "",
+                                                                                                     email: "",
+                                                                                                    message: */
+
+/* Form  */
+.nam {
+    margin-bottom: 2vmax;
+}
+
+.emailinput {
+    margin-bottom: 2vmax;
+}
+
+.buton {
+    margin-top: 2vmax;
+    margin-left: 12vmax;
+}
+
+.msgg #message {
+    height: 10vmax;
+}
+
+/********************(max-width : 950px)***************************/
+@media only screen and (max-width : 950px) {
+
+    .maincontainer {
+        width: 75vw;
+        height: 50vw;
+        margin-top: 4vh;
+        margin-bottom: 20%;
+        margin-left: 12vw;
+        /* background-color: gray; */
+    }
+
+
+    .mark1 {
+        /* background-color: green; */
+        width: 40vw;
+        height: 45vw;
+        margin: 5vh 3vw 5vh 3vw;
+    }
+
+
+
+    .mark2 {
+        /* background-color: blueviolet; */
+        width: 40vw;
+        height: 45vw;
+        margin: 5vh 3vw 5vh 3vw;
+    }
+
+    /*  descrption  */
+    .titlr {
+        margin-left: 7vw;
+        font-size: 3vw;
+    }
+
+    .descrp {
+        margin-left: 2vw;
+        font-size: 1.4vw;
+        font-weight: bolder;
+        margin-bottom: 5vh;
+
+    }
+
+    .address {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    #phone {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    #email2 {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    /* Form  */
+    .nam {
+        margin-bottom: 2vmax;
+    }
+
+    .emailinput {
+        margin-bottom: 2vmax;
+    }
+
+    .msgg .buton {
+        margin-top: 2vmax;
+        margin-left: 12vmax;
+    }
+
+    .msgg #floatingTextarea2 {
+        height: 10vmax;
+    }
+
+
+}
+
+
+
+/********************(max-width : 750px)***************************/
+@media only screen and (max-width : 750px) {
+
+    .maincontainer {
+        width: 75vw;
+        height: 50vw;
+        margin-top: 4vh;
+        margin-bottom: 40%;
+        margin-left: 12vw;
+        /* background-color: blue; */
+    }
+
+
+    .mark1 {
+        /* background-color: green; */
+        width: 40vw;
+        height: 45vw;
+        margin: 5vh 3vw 5vh 3vw;
+    }
+
+
+
+    .mark2 {
+        /* background-color: blueviolet; */
+        width: 40vw;
+        height: 45vw;
+        margin: 5vh 3vw 5vh 3vw;
+    }
+
+    /*  descrption  */
+    .titlr {
+        margin-left: 7vw;
+        font-size: 3vw;
+    }
+
+    .descrp {
+        margin-left: 2vw;
+        font-size: 1.4vw;
+        font-weight: bolder;
+        margin-bottom: 5vh;
+
+    }
+
+    .address {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    #phone {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    #email2 {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    /* Form  */
+    .nam {
+        margin-bottom: 2vmax;
+    }
+
+    .emailinput {
+        margin-bottom: 2vmax;
+    }
+
+    .msgg .buton {
+        margin-top: 2vmax;
+        margin-left: 2vmax;
+    }
+
+    .msgg #floatingTextarea2 {
+        height: 10vmax;
+    }
+
+
+}
+
+
+/********************(max-width : )***************************/
+@media only screen and (max-width : 530px) and (min-height : 480px) {
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maincontainer {
+        width: 85vmin;
+        height: 90vmax;
+        margin-top: 4vh;
+        margin-bottom: 20%;
+        margin-left: 10vw;
+        /* background-color: pink; */
+    }
+
+    .mark1 {
+        /* background-color: palevioletred; */
+        width: 75vmin;
+        height: 50vmax;
+        margin: 3vh 5vw 3vh 5vw;
+    }
+
+    .mark2 {
+        /* background-color: blueviolet; */
+        width: 75vw;
+        height: 45vw;
+        margin: 3vh 5vw 3vh 5vw;
+    }
+
+    /*  descrption  */
+    .titlr {
+        margin-left: 17vw;
+        font-size: 8vw;
+        margin-bottom: 2vw;
+    }
+
+    .descrp {
+        margin-left: 2vw;
+        font-size: 3vw;
+        font-weight: bold;
+        margin-bottom: 2.5vh;
+
+    }
+
+    .address {
+        margin-left: 3vw;
+        font-size: 3.5vw;
+        margin-bottom: 0vh;
+        font-weight: bolder;
+    }
+
+    #phone {
+        margin-left: 3vw;
+        font-size: 3.5vw;
+        margin-bottom: 2.5vh;
+        font-weight: bolder;
+    }
+
+    #email2 {
+        margin-left: 3vw;
+        font-size: 3.5vw;
+        font-weight: bolder;
+    }
+
+    /* Form  */
+    .nam {
+        margin-bottom: 2vmax;
+    }
+
+    .emailinput {
+        margin-bottom: 2vmax;
+    }
+
+    .msgg .buton {
+        margin-top: 2vmax;
+        margin-left: 2vmax;
+    }
+
+    .msgg #floatingTextarea2 {
+        height: 10vmax;
+    }
+}
+
+
+/********************(max-width : )***************************/
+@media only screen and (max-width : 500px) and (min-height : 480px) {
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maincontainer {
+        width: 85vmin;
+        height: 90vmax;
+        margin-top: 4vh;
+        margin-bottom: 20%;
+        margin-left: 10vw;
+        /* background-color: pink; */
+    }
+
+    .mark1 {
+        /* background-color: green; */
+        width: 75vmin;
+        height: 50vmax;
+        margin: 3vh 5vw 0vh 5vw;
+    }
+
+    .mark2 {
+        /* background-color: blueviolet; */
+        width: 75vw;
+        height: 45vw;
+        margin: 1vh 5vw 3vh 5vw;
+    }
+
+    /*  descrption  */
+    .titlr {
+        margin-left: 17vw;
+        font-size: 8vw;
+        margin-bottom: 2vw;
+    }
+
+    .descrp {
+        margin-left: 2vw;
+        font-size: 3vw;
+        font-weight: bold;
+        margin-bottom: 2.5vh;
+
+    }
+
+    .address {
+        margin-left: 3vw;
+        font-size: 3.5vw;
+        margin-bottom: 0vh;
+        font-weight: bolder;
+    }
+
+    #phone {
+        margin-left: 3vw;
+        font-size: 3.5vw;
+        margin-bottom: 2.5vh;
+        font-weight: bolder;
+    }
+
+    #email2 {
+        margin-left: 3vw;
+        font-size: 3.5vw;
+        font-weight: bolder;
+    }
+
+    /* Form  */
+    .nam {
+        margin-bottom: 2vmax;
+    }
+
+    .emailinput {
+        margin-bottom: 2vmax;
+    }
+
+    .msgg .buton {
+        margin-top: 2vmax;
+        margin-left: 2vmax;
+    }
+
+    .msgg #floatingTextarea2 {
+        height: 10vmax;
+    }
+}
+
+
+
+/*************************(max-height : 480px)***(max-width : 1150px)************************/
+@media only screen and (max-height : 680px) and (min-width : 500px) {
+
+    .maincontainer {
+        width: 90vw;
+        height: 105vh;
+        margin-top: 4vh;
+        margin-bottom: 5vh;
+        margin-left: 4vw;
+        /* background-color: brown; */
+    }
+
+    .mark1 {
+        /* background-color: red; */
+        width: 70vw;
+        height: 70vh;
+        margin: 5vh 3vw 1vh 3vw;
+    }
+
+    .mark2 {
+        /* background-color: blueviolet; */
+        width: 70vw;
+        height: 70vh;
+        margin: 5vh 3vw 5vh 3vw;
+    }
+
+    /*  descrption  */
+    .titlr {
+        margin-left: 7vw;
+        font-size: 6vw;
+    }
+
+    .descrp {
+        margin-left: 2vw;
+        font-size: 2vh;
+        font-weight: bolder;
+        margin-bottom: 5vh;
+
+    }
+
+    .address {
+        margin-left: 3vw;
+        font-size: 3vmin;
+        font-weight: bolder;
+    }
+
+    #phone {
+        margin-left: 3vw;
+        font-size: 3vmin;
+        font-weight: bolder;
+    }
+
+    #email2 {
+        margin-left: 3vw;
+        font-size: 3vmin;
+        font-weight: bolder;
+    }
+
+    /* Form  */
+    /* Form  */
+    .nam {
+        margin-bottom: 2vmax;
+    }
+
+    .emailinput {
+        margin-bottom: 2vmax;
+    }
+
+    .msgg .buton {
+        margin-top: 2vmax;
+        margin-left: 2vmax;
+    }
+
+    .buton {
+        font-size: 15px;
+    }
+
+    .msgg #floatingTextarea2 {
+        height: 10vmax;
+    }
+}
+
+/********************(max-height : 440px) *****************************/
+@media only screen and (max-height : 440px) {
+
+    .maincontainer {
+        width: 170vh;
+        height: 75vh;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        margin-left: 1.5vw;
+        /* background-color: red; */
+    }
+
+    .mark1 {
+        /* background-color: green; */
+        width: 90vh;
+        height: 70vh;
+        margin: 5vh 3vw 5vh 3vw;
+    }
+
+    .mark2 {
+        /* background-color: blueviolet; */
+        width: 90vh;
+        height: 70vh;
+        margin: 5vh 3vw 5vh 3vw;
+    }
+
+    /*  descrption  */
+    .titlr {
+        margin-left: 25vh;
+        font-size: 3vw;
+    }
+
+    .descrp {
+        margin-left: 2vw;
+        font-size: 1.4vw;
+        font-weight: bolder;
+        margin-bottom: 5vh;
+
+    }
+
+    .address {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    #phone {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    #email2 {
+        margin-left: 3vw;
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+    /* Form  */
+    .nam {
+        margin-bottom: 1vmax;
+    }
+
+    .emailinput {
+        margin-bottom: 1vmax;
+    }
+
+    .msgg .buton {
+        margin-top: 1vmax;
+        margin-left: 10vmax;
+    }
+
+
+    .msgg #floatingTextarea2 {
+        height: 10vmax;
+    }
+}

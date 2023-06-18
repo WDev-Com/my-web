@@ -1,0 +1,58 @@
+.navbar-brand {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#compo {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    margin-left: 5vw;
+}
+
+#boot {
+    margin-left: 65vmin;
+}
+
+.btn {
+    font-size: larger;
+}
+
+@media only screen and (max-width: 1470px) {
+
+    #compo {
+        color: black;
+        text-decoration: none;
+        margin-left: 6vmin;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+
+    #compo {
+        color: black;
+        text-decoration: none;
+        margin-left: 2vw;
+        margin-top: 0.8vw;
+    }
+
+    /* Window resized */
+    #boot {
+        margin-left: 2vw;
+        margin-top: 0.8vw;
+    }
+}
+
+/* .navbar-transparent {
+    background-color: transparent;
+    box-shadow: 0001;
+} */
+
+@media only screen and (max-height : 580px) {
+    .logo-letter {
+        /* color: blue; */
+        font-size: large;
+    }
+
+}

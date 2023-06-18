@@ -1,0 +1,10 @@
+/*background-image: url("./assets/bestgoogbcone.png");*/
+.masterback {
+
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+
+}

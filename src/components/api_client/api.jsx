@@ -1,7 +1,7 @@
 import axious from "axios"
 
 const API = axious.create({
-    baseURL: "http://192.168.10.4:8081"
+    baseURL: "https://my-app-i1op.onrender.com"
 })
 
 export default API

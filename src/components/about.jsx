@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { AiFillHtml5, AiFillCode, AiFillDatabase, AiFillMobile, AiFillAndroid } from 'react-icons/ai';
 import "./style/about.css"
+import { dataContext } from "../context/DataProvider"
 /* About Education Skills */
 /**top right bottom left */
-const about = ({ data2 }) => {
-    if (!data2) {
+const about = () => {
+    const { aboutdata } = useContext(dataContext)
+    if (!aboutdata) {
         return <div>Loading...</div>; // Show a loading state while data is being fetched
     }
     return (
@@ -15,7 +17,7 @@ const about = ({ data2 }) => {
                     <h1>About Us</h1>
                 </div>
                 <div className='masala'>
-                    <p id='contain'>{data2.aboutus}</p>
+                    <p id='contain'>{aboutdata.aboutus}</p>
                 </div>
             </div >
             <div className='container-dd'>
@@ -23,7 +25,7 @@ const about = ({ data2 }) => {
                     <h1>Education</h1>
                 </div>
                 <div className='masala'>
-                    <p id='contain'>{data2.education}</p>
+                    <p id='contain'>{aboutdata.education}</p>
                 </div>
             </div >
             <div className='container-dd'>
@@ -31,7 +33,7 @@ const about = ({ data2 }) => {
                     <h1>Skills</h1>
                 </div>
                 <div className='masala-imp'>
-                    <p id='containskil'>{data2.skills}</p>
+                    <p id='containskil'>{aboutdata.skills}</p>
                 </div>
             </div >
         </div>

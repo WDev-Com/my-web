@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './style/footer.css'
 import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
-
-const Footer = ({ data5 }) => {
-    if (!data5) {
+import { dataContext } from "../context/DataProvider"
+const Footer = () => {
+    const { profileData } = useContext(dataContext);
+    if (!{ profileData }) {
         return <div>Loading...</div>; // Show a loading state while data is being fetched
     }
     return (
@@ -25,9 +26,9 @@ const Footer = ({ data5 }) => {
                     <div className="col">
                         <h5 className="title">Social Media</h5>
                         <ul className="list-unstyled inline-block-links">
-                            <li><Link id="mao" to={data5.tlink}><FaTwitter size={25} /></Link></li>
-                            <li><Link id="mao" to={data5.llink}><FaLinkedin size={25} /></Link></li>
-                            <li><Link id="mao" to={data5.glink}><FaGithub size={25} /></Link></li>
+                            <li><Link id="mao" to={{ profileData }.tlink}><FaTwitter size={25} /></Link></li>
+                            <li><Link id="mao" to={{ profileData }.llink}><FaLinkedin size={25} /></Link></li>
+                            <li><Link id="mao" to={{ profileData }.glink}><FaGithub size={25} /></Link></li>
                         </ul>
                     </div>
                 </div>

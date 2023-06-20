@@ -1,8 +1,8 @@
 import React from 'react'
 import WorkCard from './WorkCard'
-const Works = ({ data3 }) => {
+const Works = () => {
     return (
-        <WorkCard element={data3} />
+        <WorkCard />
     )
 }
 export default Works 

@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { FaHome, FaUser, FaBlog, FaGraduationCap, FaBriefcase, FaEnvelope } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 import './style/nav.css'
-const Navbar = ({ data0 }) => {
-    if (!data0) {
+import { dataContext } from "../context/DataProvider"
+
+const Navbar = () => {
+    const { profileData } = useContext(dataContext);
+    if (!profileData) {
         return <div>Loading...</div>; // Show a loading state while data is being fetched
     }
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-transprent">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">{data0.logo}</Link>
+                    <Link className="navbar-brand" to="/">{profileData.logo}</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

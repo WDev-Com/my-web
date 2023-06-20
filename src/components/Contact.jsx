@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "./style/contact.css"
 import { useFormik } from 'formik'
@@ -7,7 +7,11 @@ import { toast } from 'react-toastify'
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 import api from "../components/api_client/api"
 
-const Contact = ({ data4 }) => {
+
+import { dataContext } from "../context/DataProvider"
+
+const Contact = () => {
+    const { contactdata } = useContext(dataContext)
     const initialValues = {
         contactresid: "",
         name: "",
@@ -74,19 +78,19 @@ const Contact = ({ data4 }) => {
 
     }
 
-    if (!data4) {
+    if (!contactdata) {
         return <div>Loading...</div>; // Show a loading state while data is being fetched
     }
     return (
         <div className="maincontainer">
             <div className="d-flex flex-column mark1">
                 <h1 className="flex-row titlr">Contact Us</h1>
-                <p className="flex-row descrp">{data4.descrip}</p>
+                <p className="flex-row descrp">{contactdata.descrip}</p>
                 <div className="flex-row address">
-                    <p><FaMapMarkerAlt size={25} color="black" /> {data4.address}</p>
+                    <p><FaMapMarkerAlt size={25} color="black" /> {contactdata.address}</p>
                 </div>
-                <p id='phone'><FaPhone size={25} color="black" /> {data4.contactno}</p>
-                <p id='email2'><FaEnvelope size={25} color="black" /> {data4.email}</p>
+                <p id='phone'><FaPhone size={25} color="black" /> {contactdata.contactno}</p>
+                <p id='email2'><FaEnvelope size={25} color="black" /> {contactdata.email}</p>
             </div>
             <div className="d-flex flex-column mark2">
                 <form onSubmit={handleSubmit}>

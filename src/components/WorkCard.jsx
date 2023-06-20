@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Workitem from './Workitem'
+import { dataContext } from "../context/DataProvider"
 
 /** Properties of bootstrap that removed 
  * for texr : col-md-8 
@@ -11,8 +12,9 @@ import Workitem from './Workitem'
 import { Link } from "react-router-dom";
 import { FaGithub } from 'react-icons/fa';
 
-const WorkCard = ({ element }) => {
-    if (!element) {
+const WorkCard = () => {
+    const { workdata } = useContext(dataContext)
+    if (!workdata) {
         return (
             <div className='main-masala'>
                 <div className="card  mb-3 inside-mas-card transparent">
@@ -39,7 +41,7 @@ const WorkCard = ({ element }) => {
     return (
         <div className='container-fluid'>
             <div className="column">
-                {element.map((datu) =>
+                {workdata.map((datu) =>
                     <div key={datu.id} className='row '>
                         <Workitem
                             key={datu.id}
